@@ -49,11 +49,6 @@ public class Main {
 				}
 			}
 		}
-		int check =0;
-		if(larg==seclarg)
-		{
-			check=1;
-		}
 		
 		int seclarg2 =seclarg;
 		int seclarg3 =seclarg;
@@ -78,7 +73,7 @@ public class Main {
 			revnum+=digit*pot;
 			nod--;
 		}
-		if(seclarg2==revnum && check==0)
+		if(seclarg2==revnum )
 		{
 			System.out.println(larg + "-"+seclarg2 +"-palindrome");
 		}
